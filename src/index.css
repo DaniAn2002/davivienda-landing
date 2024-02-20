@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     height: 100%;
@@ -24,7 +27,7 @@ body {
     margin-left: -1.25rem;
 }
 
-.davivienda-navbar-icons-light{
+.davivienda-navbar-icons-light {
     object-fit: contain;
     width: 2.5rem;
     height: 3.5rem;
@@ -88,6 +91,7 @@ body {
 .terminos-condiciones:hover {
     color: rgb(44, 44, 180);
 }
+
 /*COLORES
 Rojo: #ed1c27
 Amarillo: #f5aa0d

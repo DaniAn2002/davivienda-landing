@@ -1,6 +1,6 @@
 export const Navbar = () => {
     return (
-        <nav className="sticky top-0 px-12 bg-color-nav navbar-font">
+        <nav className="z-10 sticky top-0 px-12 bg-color-nav navbar-font mb-10">
             <ul className="flex justify-between">
                 <div className="flex justify-start">
                     <li className="px-8 -mr-6"><img className="davivienda-navbar-img" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/uxszluory8yt2ilgqrgw" alt="" /></li>
