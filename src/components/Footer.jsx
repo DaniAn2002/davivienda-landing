@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
         <>
-            <footer className="fixed bottom-0 bg-color-footer w-100">
+            <footer className="bottom-0 bg-color-footer w-100">
                 <div className="flex justify-evenly -my-1 -mb-7">
                     <img className="davivienda-footer-icons" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/ckeegis06niplhmud1w4" alt="" />
                     <img className="davivienda-footer-icons" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/asfdatcdecejvprv0yoz" alt="" />
