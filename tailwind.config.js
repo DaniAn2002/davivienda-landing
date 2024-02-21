@@ -3,10 +3,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/App.jsx",
-    "./src/components/Navbar.jsx",
-    "./src/components/Footer.jsx",
-    "./src/components/Register.jsx"
+    "./src/**/*.{js,ts,jsx,tsx}"
 
   ],
   theme: {
