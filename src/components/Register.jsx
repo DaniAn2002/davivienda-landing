@@ -1,6 +1,6 @@
 const Register = () => {
     return <>
-        <section className="bg-register flex flex-wrap justify-between items-center relative max-w-[1280px] mb-10 mx-4 md:justify-evenly md:mx-auto lg:justify-around">
+         <section className="bg-register flex flex-wrap justify-between items-center relative max-w-[1280px] mb-10 mx-4 md:justify-evenly md:mx-auto lg:justify-around">
         <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708545394/davi/sacdfba7gty3ygahcrwj.png"
                 alt="hero-img" className="w-full rounded-[10%] sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] lg:max-w-[500px]" />
             <div className="max-full text-center sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]">
