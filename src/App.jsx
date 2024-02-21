@@ -1,5 +1,6 @@
 import './App.css'
 import { Footer } from './components/Footer'
+import MainHero from './components/MainHero'
 import { Navbar } from './components/Navbar'
 import { PerfilHackathon } from './components/PerfilHackathon/PerfilHackathon'
 import { Premios } from './components/Premios'
@@ -10,10 +11,11 @@ function App() {
   return (
     <>
       < Navbar />
+      < MainHero />
       <PerfilHackathon />
       < Premios />
+      < Register />
       < Footer />
-      <Register />
     </>
   )
 }
