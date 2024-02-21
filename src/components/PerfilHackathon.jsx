@@ -52,7 +52,7 @@ export const PerfilHackathon = () => {
                     </span>
                     <p className="text-xl text-center font-medium p-3">
                         Durante el evento de la Hackathon los equipos deben conceptualizar, prototipar a nivel de mockups y desarrollar
-                        la nueva funcionalidad y su código de desarrollo.
+                        la nueva oferta de valor dentro de Daviplata y su código de desarrollo.
                     </p>
                 </div>
             </div>
