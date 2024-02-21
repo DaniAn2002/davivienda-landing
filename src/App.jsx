@@ -2,7 +2,7 @@ import './App.css'
 import { Footer } from './components/Footer'
 import MainHero from './components/MainHero'
 import { Navbar } from './components/Navbar'
-import { PerfilHackathon } from './components/PerfilHackathon/PerfilHackathon'
+import { PerfilHackathon } from './components/PerfilHackathon'
 import { Premios } from './components/Premios'
 import Register from './components/Register'
 
