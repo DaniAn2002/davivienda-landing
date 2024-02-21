@@ -70,4 +70,5 @@ export const Premios = () => {
         </div>
 
         </>
-)}
+    )
+}
