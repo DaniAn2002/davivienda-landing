@@ -16,5 +16,4 @@ const MainHero = () => {
     </section>
   )
 }
-
 export default MainHero
