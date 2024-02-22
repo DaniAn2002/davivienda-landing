@@ -3,7 +3,7 @@ export const PerfilHackathon = () => {
 
     return (
         <>
-            <section name="PerfilHackathon" className="container mx-auto rounded-xl shadow-md  my-4">
+            <section id="participantes" name="PerfilHackathon" className="container mx-auto rounded-xl shadow-md  my-4">
                 <div className="bg-red-600 md:grid md:grid-flow-col md:grid-cols-2 justify-center gap-5 p-5 rounded-t-xl">
                     <div className="content-center tracking-wide m-auto">
                         <p className="md:text-3xl lg:text-4xl text-center align-middle p-5 text-white font-medium">
