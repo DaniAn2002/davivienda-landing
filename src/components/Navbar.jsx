@@ -7,7 +7,7 @@ export const Navbar = () => {
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <img className="h-14 w-14" src="https://pbs.twimg.com/profile_images/1511758253616738313/SiXehKkx_400x400.jpg" alt="Your Company" />
+                                <img className="h-14 w-14" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/nrzpd2uy39chgynisq04" alt="Your Company" />
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
