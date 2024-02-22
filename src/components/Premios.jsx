@@ -21,7 +21,7 @@ export const Premios = () => {
                                 19
                             </h1>
 
-                            <div id="premios" className="justify-center items-center">
+                            <div className="justify-center items-center">
                                 <h1 className="rounded-full font-bold text-6xl text-center p-10 drop-shadow-lg">
                                     de Mayo
                                 </h1>
@@ -33,7 +33,7 @@ export const Premios = () => {
             </section>
 
             <div className="flex flex-wrap  flex-col justify-center items-center m-2">
-                <h1 className="rounded-full font-bold text-6xl text-center p-10">
+                <h1 id="premios" className="rounded-full font-bold text-6xl text-center pt-20 pb-10">
                     Premios
                 </h1>
             </div>

@@ -24,8 +24,8 @@ export const Navbar = () => {
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <a href='#home' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium"> Home </a>
-                                    <a href='#premios' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Premios</a>
                                     <a href='#participantes' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Participantes</a>
+                                    <a href='#premios' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Premios</a>
                                     <a href='#hackaton'  className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Hackaton</a>
                                 </div>
                             </div>
@@ -48,8 +48,8 @@ export const Navbar = () => {
                     <div className="md:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                             <a href='#home' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
-                            <a href='#premios'onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Premios</a>
                             <a href='#participantes' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Participantes</a>
+                            <a href='#premios'onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Premios</a>
                             <a href='#hackaton' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Hackaton</a>
                         </div>
                     </div>
