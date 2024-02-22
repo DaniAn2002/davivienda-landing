@@ -1,6 +1,6 @@
 const MainHero = () => {
   return (
-    <section className="flex flex-wrap justify-between items-center relative max-w-[1280px] mb-10 mx-4 md:justify-evenly md:mx-auto lg:justify-around">
+    <section style={{ marginTop: '4.5rem' }} className="flex flex-wrap justify-between items-center relative max-w-[1280px] mb-10 mx-4 md:justify-evenly md:mx-auto lg:justify-around">
       <div className="max-full text-center sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]">
         <h1 className="text-4xl block text-[#ED1C27] tracking-wide font-bold mb-4 sm:text-[calc(2.5rem+2vw)] md:text-[4.2rem]/[1] lg:text-[5.7rem]">
           Hackatón Davivienda

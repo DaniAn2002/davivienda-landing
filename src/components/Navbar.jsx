@@ -1,14 +1,19 @@
 import { useState } from 'react';
 
 export const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
 
+    const [menuOpen, setMenuOpen] = useState(false);
     const menu = () => {
-        setMenuOpen(!menuOpen);
-    };
+        setMenuOpen(!menuOpen)
+    }
+
+    const closeMenu = () => {
+        setMenuOpen(!menuOpen)
+    }
+
 
     return (
-        <div className="min-h-full">
+        <div className="min-w-full fixed top-0 z-20">
             <nav style={{ backgroundColor: 'rgba(214,35,41,255)' }}>
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
@@ -18,10 +23,10 @@ export const Navbar = () => {
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
-                                    <a href="#" className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-                                    <a href="#" className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Premios</a>
-                                    <a href="#" className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Participantes</a>
-                                    <a href="#" className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Hackaton</a>
+                                    <button className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium"> Home </button>
+                                    <button className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Premios</button>
+                                    <button className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Participantes</button>
+                                    <button className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Hackaton</button>
                                 </div>
                             </div>
                         </div>
@@ -42,10 +47,10 @@ export const Navbar = () => {
                 {menuOpen && (
                     <div className="md:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                            <a href="#" className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
-                            <a href="#" className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Premios</a>
-                            <a href="#" className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Participantes</a>
-                            <a href="#" className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Hackaton</a>
+                            <button onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</button>
+                            <button onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Premios</button>
+                            <button onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Participantes</button>
+                            <button onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Hackaton</button>
                         </div>
                     </div>
                 )}
