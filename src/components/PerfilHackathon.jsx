@@ -20,13 +20,13 @@ export const PerfilHackathon = () => {
             </div>
             <div className="md:grid md:grid-flow-col md:grid-cols-3">
                 <div className="tracking-wide">
-                    <img src="https://res.cloudinary.com/dbhtbf2uu/image/upload/v1708473830/Davivienda-landing/kfhco4xxxnoonac7kuua.png" 
+                    <img src="https://res.cloudinary.com/dbhtbf2uu/image/upload/v1708569620/Davivienda-landing/mtcz0ofpnmooedlfezlk.png" 
                     className="w-24 block mx-auto my-2"
                     alt="Reto" />
                     <span className="block font-bold text-2xl text-center mx-auto">
                         El Reto
                     </span>
-                    <p className="text-xl text-center font-medium p-2">
+                    <p className="text-xl text-justify font-medium p-8 text-wrap">
                         Diseñar la oferta de valor y experiencia para los jóvenes universitarios que fortalezca el ecosistema digital
                         de pagos en la universidades.
                     </p>
@@ -38,7 +38,7 @@ export const PerfilHackathon = () => {
                     <span className="block font-bold text-2xl text-center mx-auto">
                         ¿Quiénes participan?
                     </span>
-                    <p className="text-xl text-center font-medium p-3">
+                    <p className="text-xl text-justify font-medium p-8 text-wrap">
                         Equipos de 2 a 5 personas conformados por estudiantes, egresados y graduados de Universidades de El Salvador, 
                         de cualquier carrera afín a tecnología, administración de empresas y diseño.
                     </p>
@@ -50,7 +50,7 @@ export const PerfilHackathon = () => {
                     <span className="block font-bold text-2xl text-center mx-auto">
                         ¿Qué se debe entregar?
                     </span>
-                    <p className="text-xl text-center font-medium p-3">
+                    <p className="text-xl text-justify font-medium p-8 text-wrap">
                         Durante el evento de la Hackathon los equipos deben conceptualizar, prototipar a nivel de mockups y desarrollar
                         la nueva oferta de valor dentro de Daviplata y su código de desarrollo.
                     </p>
