@@ -2,6 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+    scroll-behavior: smooth;
+  }
 
 html {
     scroll-behavior: smooth;
@@ -11,86 +14,12 @@ body {
     height: 100%;
 }
 
-.davivienda-navbar-img {
-    object-fit: contain;
-    width: 16rem;
-    height: 16rem;
-    margin-top: -6.25rem;
-    margin-bottom: -5.60rem;
+@responsive{
+    .angled-mask {
+        clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+    }
 }
 
-.davivienda-navbar-icons {
-    object-fit: contain;
-    width: 1.5rem;
-    height: 2.5rem;
-    margin-top: 0.5rem;
-    margin-left: -1.25rem;
-}
-
-.davivienda-navbar-icons-light {
-    object-fit: contain;
-    width: 2.5rem;
-    height: 3.5rem;
-    margin-top: -0.05rem;
-    margin-left: -1.25rem;
-}
-
-
-.bg-color-nav {
-    background-color: rgb(190, 190, 190);
-    /*     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-    text-shadow: rgba(4, 4, 4, 0.8) .5px .5px;
-}
-
-.navbar-font {
-    font-family: "Fredoka", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
-
-.bg-inscribete {
-    background-color: rgb(208, 69, 69);
-    margin: 0.5rem;
-    border-radius: 15px;
-    font-weight: 600;
-}
-
-.bg-color-footer {
-    background-color: rgb(190, 190, 190);
-    /*     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-    text-shadow: rgba(2, 2, 2, 0.8) .25px .25px;
-}
-
-.davivienda-footer-img {
-    object-fit: contain;
-    width: 8rem;
-    height: 12rem;
-}
-
-.davivienda-footer-icons {
-    object-fit: contain;
-    width: 4rem;
-    height: 6rem;
-}
-
-.davivienda-footer-redes {
-    object-fit: contain;
-    width: 4rem;
-    height: 4rem;
-}
-
-.davivienda-footer-redes-youtube {
-    object-fit: contain;
-    margin-top: 0.5rem;
-    width: 3rem;
-    height: 3rem;
-}
-
-.terminos-condiciones:hover {
-    color: rgb(44, 44, 180);
-}
 
 /*COLORES
 Rojo: #ed1c27
