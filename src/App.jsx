@@ -6,6 +6,7 @@ import { PerfilHackathon } from './components/PerfilHackathon'
 import { Premios } from './components/Premios'
 import Register from './components/Register'
 import DaviPlata from './components/DaviPlata'
+import Carreras from './components/Carreras'
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
       < Navbar />
       < MainHero />
       <PerfilHackathon />
+      <Carreras/>
       < Premios />
       < Register />
       <DaviPlata/>
