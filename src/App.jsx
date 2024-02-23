@@ -5,7 +5,7 @@ import { Navbar } from './components/Navbar'
 import { PerfilHackathon } from './components/PerfilHackathon'
 import { Premios } from './components/Premios'
 import Register from './components/Register'
-
+import DaviPlata from './components/DaviPlata'
 function App() {
 
   return (
@@ -15,6 +15,7 @@ function App() {
       <PerfilHackathon />
       < Premios />
       < Register />
+      <DaviPlata/>
       < Footer />
     </>
   )
