@@ -5,7 +5,7 @@ const Fechas = () => {
                 <div className="md:w-1/2 my-2">
                     <img src="https://res.cloudinary.com/dgxmqoyv4/image/upload/v1708554227/Davivienda/computer-program-coding-screen_wrk4lh.jpg" alt="Hero Image" className="md:angled-mask drop-shadow-lg" />
                 </div>
-                <div className="my-10 mx-2 md:w-1/2 md:mb-0 2xl:my-0">
+                <div id="fechas" className="mb-10 pt-20 mx-2 md:w-1/2 md:mb-0 2xl:my-0">
                     <div  className="bg-fake-white text-cyan-950 rounded-xl mb-6 p-2 2xl:mb-12">
                         <h2 className="text-4xl font-bold leading-tight mb-2 text-center drop-shadow-lg">
                         ¡Tres días de intensa innovación!</h2>
