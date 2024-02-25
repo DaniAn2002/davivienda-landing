@@ -16,10 +16,10 @@ export const Navbar = () => {
         <div className="min-w-full fixed top-0 z-20">
             <nav style={{ backgroundColor: 'rgba(214,35,41,255)' }}>
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div className="flex h-16 items-center justify-between">
+                    <div className="flex h-16 items-center justify-center">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <img className="h-14 w-14" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/nrzpd2uy39chgynisq04" alt="Your Company" />
+                                <img className="h-14 w-14" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/nrzpd2uy39chgynisq04" alt="Logo Davivienda" />
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
@@ -27,10 +27,17 @@ export const Navbar = () => {
                                     <a href='#participantes' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Participantes</a>
                                     <a href='#fechas' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Fechas</a>
                                     <a href='#premios' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Premios</a>
-                                    <a href='#hackaton'  className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Hackaton</a>
+                                    <a href='#hackaton' className="text-white hover:bg-zinc-50 hover:text-black rounded-md px-3 py-2 text-sm font-medium">Hackaton</a>
+                                    <div className="flex justify-end">
+                                        <button type="button" className="text-black bg-zinc-50 hover:bg-zinc-50 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-zinc-50 dark:hover:bg-slate-300 dark:focus:bg-zinc-50">
+                                            Inscribete
+
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <div className="md:hidden">
                             <button onClick={menu} className="block text-white focus:outline-none">
                                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -48,10 +55,11 @@ export const Navbar = () => {
                 {menuOpen && (
                     <div className="md:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+                            <a href='# ' className="text-black bg-zinc-50 hover:bg-zinc-50 block rounded-2xl px-3 py-2 text-base font-medium">Inscribete</a>
                             <a href='#home' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
                             <a href='#participantes' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Participantes</a>
-                            <a href='#fechas'onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Fechas</a>
-                            <a href='#premios'onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Premios</a>
+                            <a href='#fechas' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Fechas</a>
+                            <a href='#premios' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Premios</a>
                             <a href='#hackaton' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Hackaton</a>
                         </div>
                     </div>

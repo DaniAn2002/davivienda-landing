@@ -8,7 +8,7 @@ export const Footer = () => {
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
                             <a href="https://www.davivienda.com.sv/" className="flex items-center">
-                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/y8a1tx3ofttei3zmpmq1" className="h-8 me-3" alt="FlowBite Logo" />
+                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/y8a1tx3ofttei3zmpmq1" className="h-8 me-3" alt="Logo Davivienda" />
                             </a>
                         </div>
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -24,7 +24,7 @@ export const Footer = () => {
                                     <li>
                                         <div className="flex flex-col">
 
-                                            <a href="">TeleMercadeo</a>
+                                            <a href="">Telemercadeo</a>
                                             <a href="https://www.davivienda.com.sv/" className="hover:underline">2567-2000</a>
                                         </div>
 
