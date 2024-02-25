@@ -2,37 +2,7 @@ import "../index.css";
 
 export const Premios = () => {
     return (
-        <>
-            <section className="bg-red-900 text-white drop-shadow-lg">
-                <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-                    <div className="md:w-1/2">
-                        <img src="https://res.cloudinary.com/dgxmqoyv4/image/upload/v1708554227/Davivienda/computer-program-coding-screen_wrk4lh.jpg" alt="Hero Image" className="md:angled-mask drop-shadow-lg" />
-                    </div>
-                    <div className=" md:w-1/2 mb-10 md:mb-0">
-                        <h2 className="text-4xl font-bold leading-tight mb-4 text-center drop-shadow-lg pt-10">
-                            ¡Tres días de intensa innovación!</h2>
-                        <div className="flex flex-wrap flex-row justify-center items-center">
-                            <h1 className="rounded font-bold text-6xl text-white text-center  flex items-center justify-center w-32 h-32 p-10 bg-white border border-gray-200 drop-shadow-lg hover:bg-red-100 dark:bg-red-700 dark:border-red-700 dark:hover:bg-red-700 mx-auto my-4">
-                                17
-                            </h1>
-                            <h1 className="rounded font-bold text-6xl text-white text-center  flex items-center justify-center w-32 h-32 p-10 bg-white border border-gray-200 drop-shadow-lg hover:bg-red-100 dark:bg-red-700 dark:border-red-700 dark:hover:bg-red-700 mx-auto my-4">
-                                18
-                            </h1>
-                            <h1 className="rounded font-bold text-6xl text-white text-center  flex items-center justify-center w-32 h-32 p-10 bg-white border border-gray-200 drop-shadow-lg hover:bg-red-100 dark:bg-red-700 dark:border-red-700 dark:hover:bg-red-700 mx-auto my-4">
-                                19
-                            </h1>
-
-                            <div className="justify-center items-center">
-                                <h1 className="rounded-full font-bold text-6xl text-center p-10 drop-shadow-lg">
-                                    de Mayo
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
+        <section>
             <div className="flex flex-wrap  flex-col justify-center items-center m-2">
                 <h1 id="premios" className="rounded-full font-bold text-6xl text-center pt-20 pb-10">
                     Premios
@@ -68,7 +38,6 @@ export const Premios = () => {
                     </div>
                 </div>
             </div>
-
-        </>
+        </section>
     )
 }

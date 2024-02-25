@@ -7,17 +7,19 @@ import { Premios } from './components/Premios'
 import Register from './components/Register'
 import DaviPlata from './components/DaviPlata'
 import Carreras from './components/Carreras'
+import Fechas from './components/Fechas'
 function App() {
 
   return (
     <>
       < Navbar />
       < MainHero />
-      <PerfilHackathon />
-      <Carreras/>
+      < PerfilHackathon />
+      < Carreras/>
+      < Fechas />
       < Premios />
       < Register />
-      <DaviPlata/>
+      < DaviPlata/>
       < Footer />
     </>
   )
