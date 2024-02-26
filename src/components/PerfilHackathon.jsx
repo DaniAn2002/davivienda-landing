@@ -49,15 +49,15 @@ export const PerfilHackathon = () => {
                                     Equipos de 2 a 5 personas conformados por estudiantes, egresados y graduados de Universidades de El Salvador,
                                     de cualquier carrera afín a tecnología, administración de empresas y diseño.
                                 </p>
-                                <h2 className="text-xl font-bold pt-2 px-[calc(1.5rem+5vw)] sm:px-20 md:px-2">Carreras</h2>
-                                <ul className="mx-auto font-medium text-xl text-wrap pt-2 pb-4 px-[calc(1.5rem+5vw)] sm:px-20 md:px-2">
-                                    <li className="py-1 tracking-wide">- Lic. En Innovación y Transformación Digital</li>
-                                    <li className="py-1 tracking-wide">- Ing. En Software y Negocios Digitales</li>
-                                    <li className="py-1 tracking-wide">- Ingeniería Industrial, Informática, en Sistemas y de Negocios</li>
-                                    <li className="py-1 tracking-wide">- Diseño Estratégico</li>
-                                    <li className="py-1 tracking-wide">- Comunicación y Estrategia Digital</li>
-                                    <li className="py-1 tracking-wide">- Administración de Empresas y Mercadeo</li>
-                                    <li className="py-1 tracking-wide">- Ciencia de Datos (Desarrolladores / programadores)</li>
+                                <h2 className="text-xl font-bold pt- px-[calc(1.5rem+5vw)] sm:px-20 md:px-10 lg:px-2">Carreras</h2>
+                                <ul className="mx-auto font-medium text-xl text-wrap pt-2 pb-4 px-[calc(1.5rem+5vw)] sm:px-20 md:px-10 lg:px-2">
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Lic. En Innovación y Transformación Digital</li>
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Ing. En Software y Negocios Digitales</li>
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Ingeniería Industrial, Informática, en Sistemas y de Negocios</li>
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Diseño Estratégico</li>
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Comunicación y Estrategia Digital</li>
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Administración de Empresas y Mercadeo</li>
+                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-black border-b-2 lg:border-none">Ciencia de Datos (Desarrolladores / programadores)</li>
                                 </ul>
                             </div>
                         </div>
