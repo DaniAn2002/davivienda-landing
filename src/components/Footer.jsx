@@ -23,18 +23,18 @@ export const Footer = () => {
                                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">Mis Finanzas en Casa</a>
+                                            <a target="_blank" href="https://www.misfinanzasencasa.com/seleccione-su-pais" className="hover:underline">Mis Finanzas en Casa</a>
                                         </div>
                                     </li>
                                     <li className="mb-4">
                                         <div className="flex flex-col">
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">Seguros</a>
+                                            <a target="_blank" href="https://www.davivienda.com.sv/#/seguros-personas" className="hover:underline">Seguros</a>
                                         </div>
 
                                     </li>
                                     <li>
                                         <div className="flex flex-col">
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">Trabaja con nosotros</a>
+                                            <a target="_blank" href="https://www.davivienda.com.sv/#/personas/activos" className="hover:underline">Trabaja con nosotros</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -47,14 +47,14 @@ export const Footer = () => {
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a href="">Centro de Contacto</a>
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">2556-0000</a>
+                                            <a className="hover:underline">2556-0000</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="flex flex-col">
 
                                             <a href="">Telemercadeo</a>
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">2567-2000</a>
+                                            <a className="hover:underline">2567-2000</a>
                                         </div>
 
                                     </li>
@@ -67,12 +67,12 @@ export const Footer = () => {
                                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">Modelos de Escrituración</a>
+                                            <a target="_blank" href="https://www.davivienda.com.sv/#/personas/legal" className="hover:underline">Modelos de Escrituración</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="flex flex-col">
-                                            <a href="https://www.davivienda.com.sv/" className="hover:underline">Escribanos</a>
+                                            <a target="_blank" href="https://www.davivienda.com.sv/#/personas/https://www.davivienda.com.sv/#/personas/atencion_cliente" className="hover:underline">Escribanos</a>
                                         </div>
 
                                     </li>
