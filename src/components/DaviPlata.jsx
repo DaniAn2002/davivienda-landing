@@ -7,10 +7,10 @@ const DaviPlata = () => {
                 </p>
                 <div className="flex flex-wrap justify-between items-center relative max-w-[1280px] mb-10 mx-4 my-8 md:justify-evenly md:mx-auto lg:justify-around">
                     <a href="https://itunes.apple.com/sv/app/daviplata-el-salvador/id1441370114?mt=8" target="_blank" className="rounded-lg flex flex-wrap items-center text-white font-bold text-lg bg-black p-5 mb-5 w-fit mx-auto sm:text-2xl md:mx-0 hover:bg-zinc-800 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">
-                        <img className="w-7 mr-2" src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1708908364/kodigo-Davivienda/brand-apple_xfsxm6.png" alt="App store logo"/>
+                        <img className="w-7 mr-1" src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1708908364/kodigo-Davivienda/brand-apple_xfsxm6.png" alt="App store logo"/>
                         App Store</a>
                     <a href="https://play.google.com/store/apps/details?id=imoves.com.daviplata&hl=es" target="_blank" className="rounded-lg flex flex-wrap items-center text-white font-bold text-lg bg-black p-5 mb-5 w-fit mx-auto sm:text-2xl md:mx-0 hover:bg-zinc-800 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">
-                        <img className="w-7 mr-2" src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1708908364/kodigo-Davivienda/brand-google-play_rw6ijf.png" alt="Play store logo"/>
+                        <img className="w-7 mr-1" src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1708908364/kodigo-Davivienda/brand-google-play_rw6ijf.png" alt="Play store logo"/>
                         Google Play</a>
                 </div>
             </div>
