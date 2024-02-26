@@ -3,7 +3,7 @@ const MainHero = () => {
     <section id="home" className="flex flex-wrap justify-between items-center relative max-w-[1280px] mx-4 pt-20 md:justify-evenly md:mx-auto lg:justify-around">
       <div className="max-full text-center sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]">
         <h1 className="text-4xl block text-davivienda-red tracking-wide font-bold mb-4 sm:text-[calc(2.5rem+2vw)] md:text-[4.2rem]/[1] lg:text-[5.7rem]">
-          Hackathon Davivienda
+          Primera Hackathon Davivienda
         </h1>
         <p className="text-2xl mb-2 text-pretty sm:text-3xl md:text-balance lg:text-4xl">
           Primer Hackathon con jóvenes universitarios en <span className="text-blue-600">El Salvador</span>

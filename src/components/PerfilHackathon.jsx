@@ -9,12 +9,12 @@ export const PerfilHackathon = () => {
                                 Si tienes entre <span className="font-bold">18</span> y <span className="font-bold">
                                     29</span> años,
                                 ¡acepta el desafío! Junto con tu equipo,
-                                <span className="font-extrabold"> podrían ganar hasta $3000 dólares</span>.
+                                <span className="font-extrabold"> podrían ganar hasta $3,000.00 dólares</span>.
                             </p>
                         </div>
-                        <div className="rounded-[40px] bg-davivienda-smoke w-fit my-5 mx-auto p-5">
-                            <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708690740/davi/p2vuvs8bwbiin9otgfdm.jpg"
-                                className="w-full rounded-[40px] block sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]"
+                        <div className="rounded-[40px] bg-davivienda-smoke w-fit my-5 mx-auto p-2">
+                            <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708970708/davi/dll7s0xt9kudhwekbzjr.jpg"
+                                className="w-full rounded-[20px] block sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]"
                                 alt="hombre con laptop" />
                         </div>
                     </div>

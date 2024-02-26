@@ -3,7 +3,7 @@ const Fechas = () => {
         <section className="bg-[#DC2626] text-white drop-shadow-lg">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                 <div className="md:w-1/2 my-2">
-                    <img src="https://res.cloudinary.com/dgxmqoyv4/image/upload/v1708554227/Davivienda/computer-program-coding-screen_wrk4lh.jpg" alt="Hero Image" className="md:angled-mask drop-shadow-lg" />
+                    <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708971274/davi/xeroq7cuhoqj4oknekmr.jpg" alt="Hero Image" className="md:angled-mask drop-shadow-lg md:h-[500px] md:w-[500px] sm:h-[300px] sm:w-[300px]" />
                 </div>
                 <div id="fechas" className="mb-10 pt-20 mx-2 md:w-1/2 md:mb-0 2xl:my-0">
                     <div  className="bg-fake-white text-cyan-950 rounded-xl mb-6 p-2 2xl:mb-12">
