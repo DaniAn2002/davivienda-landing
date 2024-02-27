@@ -1,7 +1,7 @@
 export const PerfilHackathon = () => {
     return (
         <>
-            <section id="participantes" className="py-16">
+            <section id="participantes" className="pt-16">
                 <div name="PerfilHackathon" className="container mx-auto rounded-xl shadow-md my-4">
                     <div className="bg-red-600 md:grid md:grid-flow-col md:grid-cols-2 justify-center gap-5 p-5 rounded-t-xl">
                         <div className="content-center tracking-wide m-auto">
@@ -14,7 +14,7 @@ export const PerfilHackathon = () => {
                         </div>
                         <div className="rounded-[40px] bg-davivienda-smoke w-fit my-5 mx-auto p-2">
                             <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708970708/davi/dll7s0xt9kudhwekbzjr.jpg"
-                                className="w-full rounded-[20px] block sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]"
+                                className="w-full rounded-[40px] block sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]"
                                 alt="hombre con laptop" />
                         </div>
                     </div>
