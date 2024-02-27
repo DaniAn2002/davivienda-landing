@@ -55,7 +55,7 @@ const Fechas = () => {
                                     <div className="bg-davivienda-smoke rounded-2xl w-[calc(128px+5vw)] p-4 min-[400px]:w-[calc(120px+1vw)] min-[400px]:ml-8">
                                         <h2 className="text-lg font-bold underline md:text-xl">¡Evento principal!</h2>
                                         <span className="block text-sm md:text-base">Presencial</span>
-                                        <p className="text-sm mb-4 italic md:text-base">17 - 18 MAY</p>
+                                        <p className="text-sm mb-4 italic md:text-base">17 - 19 MAY</p>
                                         <img className="w-12 mx-auto" src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709028198/kodigo-Davivienda/arrow-big-down-lines-filled_xzdm1y.png" alt="Arrow" />
                                     </div>
                                     <div className="absolute w-[18px] h-[18px] bg-[#F78E20] border border-davivienda-smoke rounded-full justify-self-center">
