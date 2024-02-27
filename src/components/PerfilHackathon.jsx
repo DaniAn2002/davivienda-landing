@@ -9,7 +9,7 @@ export const PerfilHackathon = () => {
                                 Si tienes entre <span className="font-bold">18</span> y <span className="font-bold">
                                     29</span> años,
                                 ¡acepta el desafío! Junto con tu equipo,
-                                <span className="font-extrabold"> podrían ganar hasta $3,000.00 dólares</span>.
+                                <span className="font-extrabold"> podrían ganar hasta $3,000 dólares</span>.
                             </p>
                         </div>
                         <div className="rounded-[40px] bg-davivienda-smoke w-fit my-5 mx-auto p-2">
