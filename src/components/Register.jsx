@@ -1,7 +1,7 @@
 const Register = () => {
     return <>
         <section id="hackaton" className="pt-20">
-            <div className="bg-register rounded-[40px] flex flex-wrap justify-between items-center relative max-w-[1280px] mb-10 mx-4 md:justify-evenly md:mx-auto lg:justify-around">
+            <div className="bg-register rounded-[40px] flex flex-wrap justify-between items-center relative max-w-[1280px] mb-5 mx-4 md:justify-evenly md:mx-auto lg:justify-around">
                 <div className="rounded-[40px] bg-davivienda-smoke p-5 m-5">
                     <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708691701/davi/qynsy2n6hiu4mug5n8yp.jpg"
                     alt="inscribase" className="w-full rounded-[40px] sm:max-w-[calc(225px+4vw)] md:max-w-[calc(320px+3vw)] lg:max-w-[425px]" />
@@ -14,6 +14,7 @@ const Register = () => {
                 </div>
             </div>
         </section>
+        <a href="#" className="bg-[#F78E20] rounded-2xl block text-lg text-cyan-950 font-bold w-fit p-5 mb-14 mx-auto sm:text-2xl hover:brightness-90 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">Términos y Condiciones</a>
     </>
 }
 export default Register

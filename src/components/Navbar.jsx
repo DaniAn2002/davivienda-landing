@@ -19,7 +19,9 @@ export const Navbar = () => {
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <img className="h-14 w-14" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/nrzpd2uy39chgynisq04" alt="Logo Davivienda" />
+                                <a href="/">
+                                    <img className="h-14 w-14" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/nrzpd2uy39chgynisq04" alt="Logo Davivienda" />
+                                </a>
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
@@ -34,9 +36,9 @@ export const Navbar = () => {
                         </div>
 
                         <div className="flex items-center gap-4">
-                                <button type="button" className="text-black bg-zinc-50 hover:bg-zinc-50 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-zinc-50 dark:hover:bg-slate-300 dark:focus:bg-zinc-50">
+                                <a href='#' className="text-black bg-davivienda-smoke focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:bg-zinc-50 hover:scale-105">
                                     Inscríbete
-                                </button>
+                                </a>
                             <div className="md:hidden">
                                 <button onClick={menu} className="block text-white focus:outline-none">
                                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
