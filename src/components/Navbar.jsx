@@ -32,31 +32,30 @@ export const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex max-md:hidden justify-end">
-                            <button type="button" className="text-black bg-zinc-50 hover:bg-zinc-50 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-zinc-50 dark:hover:bg-slate-300 dark:focus:bg-zinc-50">
-                                Inscríbete
 
-                            </button>
+                        <div className="flex items-center gap-4">
+                                <button type="button" className="text-black bg-zinc-50 hover:bg-zinc-50 focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-zinc-50 dark:hover:bg-slate-300 dark:focus:bg-zinc-50">
+                                    Inscríbete
+                                </button>
+                            <div className="md:hidden">
+                                <button onClick={menu} className="block text-white focus:outline-none">
+                                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        {menuOpen ? (
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                        ) : (
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+                                        )}
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
 
-                        <div className="md:hidden">
-                            <button onClick={menu} className="block text-white focus:outline-none">
-                                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    {menuOpen ? (
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                    ) : (
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
-                                    )}
-                                </svg>
-                            </button>
-                        </div>
                     </div>
                 </div>
 
                 {menuOpen && (
                     <div className="md:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                            <a href='# ' className="text-black bg-zinc-50 hover:bg-zinc-50 block rounded-2xl px-3 py-2 text-base font-medium">Inscribete</a>
                             <a href='#home' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
                             <a href='#participantes' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Participantes</a>
                             <a href='#fechas' onClick={closeMenu} className="text-white hover:bg-zinc-50 hover:text-black block rounded-md px-3 py-2 text-base font-medium">Fechas</a>

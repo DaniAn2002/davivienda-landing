@@ -5,9 +5,9 @@ const Fechas = () => {
             <div className="bg-[#DC2626] lg:p-4">
                 <section className="lg:border-4 lg:border-davivienda-smoke lg:rounded-2xl lg:p-1 text-white max-w-screen-lg mx-auto">
                     <div className="flex flex-col md:flex-row justify-between items-center max-w-screen-xl">
-                        <div className="hidden md:block md:w-1/2 my-2">
+                        <div className="hidden md:block md:w-1/2 mb-2">
                             <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708971274/davi/xeroq7cuhoqj4oknekmr.jpg" alt="Hero Image"
-                                className="md:angled-mask drop-shadow-lg md:w-[500px] sm:w-[300px] max-h-[636px]" />
+                                className="md:angled-mask drop-shadow-xl md:w-[500px] sm:w-[300px] max-h-[636px] border-2 border-davivienda-smoke rounded-tl-2xl" />
                         </div>
                         <div className="mb-2 mx-2 md:w-1/2 2xl:my-0">
                             <div className="relative grid grid-cols-1 mx-auto text-cyan-950 w-[calc(290px+8vw)] min-[400px]:w-[calc(375px+5vw)] md:w-full md:max-w-[400px]">
