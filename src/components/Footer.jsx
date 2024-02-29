@@ -1,9 +1,7 @@
 export const Footer = () => {
     return (
         <>
-
-
-            <footer style={{ backgroundColor: '#22262A' }} className="dark:bg-gray-900">
+            <footer style={{ backgroundColor: '#22262A' }}>
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
@@ -13,14 +11,12 @@ export const Footer = () => {
                             <a href="https://www.daviplata.com/wps/portal/daviplata" target="_blank" className="flex py-6 items-center">
                                 <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/yzvycgmjnmw7cophmszr" style={{ height: '3.75rem' }} className="me-3" alt="Logo DaviPlata" />
                             </a>
-
                         </div>
 
                         <div className="grid grid-cols-2 gap-8 sm:gap-12 sm:grid-cols-4">
-
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Portales Davivienda</h2>
-                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                                <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Portales Davivienda</h2>
+                                <ul className="text-gray-500 font-medium">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a target="_blank" href="https://www.misfinanzasencasa.com/seleccione-su-pais" className="hover:underline">Mis Finanzas en Casa</a>
@@ -30,7 +26,6 @@ export const Footer = () => {
                                         <div className="flex flex-col">
                                             <a target="_blank" href="https://www.davivienda.com.sv/#/seguros-personas" className="hover:underline">Seguros</a>
                                         </div>
-
                                     </li>
                                     <li>
                                         <div className="flex flex-col">
@@ -38,12 +33,11 @@ export const Footer = () => {
                                         </div>
                                     </li>
                                 </ul>
-
                             </div>
 
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contacto</h2>
-                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                                <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Contacto</h2>
+                                <ul className="text-gray-500 font-medium">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a href="">Centro de Contacto</a>
@@ -56,15 +50,13 @@ export const Footer = () => {
                                             <a href="">Telemercadeo</a>
                                             <a className="hover:underline">2567-2000</a>
                                         </div>
-
                                     </li>
-
                                 </ul>
                             </div>
 
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Interes</h2>
-                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                                <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Interes</h2>
+                                <ul className="text-gray-500 font-medium">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a target="_blank" href="https://www.davivienda.com.sv/#/personas/legal" className="hover:underline">Modelos de Escrituración</a>
@@ -74,15 +66,13 @@ export const Footer = () => {
                                         <div className="flex flex-col">
                                             <a target="_blank" href="https://www.davivienda.com.sv/#/personas/https://www.davivienda.com.sv/#/personas/atencion_cliente" className="hover:underline">Escribanos</a>
                                         </div>
-
                                     </li>
-
                                 </ul>
                             </div>
 
                             <div>
-                                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                                <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Legal</h2>
+                                <ul className="text-gray-500 font-medium">
                                     <li className="mb-4">
                                         <a href="#" className="hover:underline">Politicas de privacidad</a>
                                     </li>
@@ -117,7 +107,6 @@ export const Footer = () => {
                     </div>
                 </div>
             </footer>
-
         </>
     )
 }
