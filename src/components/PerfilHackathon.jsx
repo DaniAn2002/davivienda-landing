@@ -46,22 +46,11 @@ export const PerfilHackathon = () => {
                             </div>
                             <div className="block text-cyan-950 lg:w-1/2">
                                 <p className="block sm:text-center lg:text-left text-balance font-medium pt-10 pb-9 px-[calc(1.5rem+5vw)] sm:text-xl sm:px-20 md:px-2 lg:text-2xl">
-                                    Equipos de 2 a 5 personas conformados por estudiantes, egresados y graduados de Universidades de El Salvador,
-                                    de cualquier carrera afín a tecnología, administración de empresas y diseño.
+                                    Equipos de <span className="font-bold text-davivienda-red">2 a 5 personas</span> conformados por estudiantes, egresados y graduados de Universidades de El Salvador,
+                                    de cualquier carrera afín a <span className="font-bold text-davivienda-red">tecnología, administración de empresas y diseño.</span>
                                 </p>
-                                <h2 className="text-xl font-bold px-[calc(1.5rem+5vw)] sm:px-20 md:px-10 lg:px-2">Carreras</h2>
-                                <ul className="mx-auto font-medium text-wrap pt-2 pb-4 px-[calc(1.5rem+5vw)] sm:px-20 md:text-lg md:px-10 lg:px-2">
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Lic. En Innovación y Transformación Digital</li>
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Ing. En Software y Negocios Digitales</li>
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Ingeniería Industrial, Informática, en Sistemas y de Negocios</li>
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Diseño Estratégico</li>
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Comunicación y Estrategia Digital</li>
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Administración de Empresas y Mercadeo</li>
-                                    <li className="max-w-fit mb-4 p-px tracking-wide border-b-davivienda-red border-b-2">Ciencia de Datos</li>
-                                </ul>
                             </div>
                         </div>
-
                         <div className="tracking-wide pt-4 lg:flex lg:items-center md:border-r md:border-l backdrop-blur-md bg-white/90 rounded-xl m-1">
                             <div className="lg:w-1/2 lg:my-5 lg:drop-shadow-md lg:p-1">
                                 <img src="https://res.cloudinary.com/dbhtbf2uu/image/upload/v1708923984/Davivienda-landing/fynovvllmkwocdpobkfw.png"
@@ -72,8 +61,7 @@ export const PerfilHackathon = () => {
                                 </span>
                             </div>
                             <p className="lg:w-1/2 text-center text-cyan-950 sm:text-xl lg:text-2xl sm:text-center lg:text-left text-balance font-medium pt-8 pb-9 px-[calc(1.5rem+5vw)] sm:px-16 md:px-4 lg:py-0 xl:px-3">
-                                Durante el evento de la Hackathon los equipos deben conceptualizar, prototipar a nivel de mockups y desarrollar
-                                la nueva oferta de valor dentro de Daviplata y su código de desarrollo.
+                            ¡Mockups, prototipo funcional y código de la solución desarrollada!
                             </p>
                         </div>
                     </div>
