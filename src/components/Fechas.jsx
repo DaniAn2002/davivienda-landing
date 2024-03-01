@@ -14,7 +14,7 @@ const Fechas = () => {
                                 <img className="absolute self-center justify-self-center h-[76%] pb-4"
                                     src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709031663/kodigo-Davivienda/Line_clean_sfzc5d.png" alt="Time line" />
                                 <div className="grid items-center mt-2">
-                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[165px] lg:w-[181px]">
+                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px]">
                                         <h2 className="text-lg font-bold underline md:text-xl">Convocatoria</h2>
                                         <span className="block text-sm md:text-base">Virtual</span>
                                         <p className="text-sm italic md:text-base">26 FEB - 17 ABR</p>
@@ -24,7 +24,7 @@ const Fechas = () => {
                                     </div>
                                 </div>
                                 <div className="grid items-center">
-                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[165px] lg:w-[181px] justify-self-end">
+                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px] justify-self-end">
                                         <h2 className="text-lg font-bold underline md:text-xl">Kickoff</h2>
                                         <span className="block text-sm md:text-base">Virtual</span>
                                         <p className="text-sm italic md:text-base">22 ABR</p>
@@ -34,7 +34,7 @@ const Fechas = () => {
                                     </div>
                                 </div>
                                 <div className="grid items-center">
-                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[165px] lg:w-[181px]">
+                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px]">
                                         <h2 className="text-lg font-bold underline md:text-xl">Sesión Q&A</h2>
                                         <span className="block text-sm md:text-base">Virtual</span>
                                         <p className="text-sm italic md:text-base">25 ABR</p>
@@ -44,7 +44,7 @@ const Fechas = () => {
                                     </div>
                                 </div>             
                                 <div className="grid items-center">
-                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[165px] lg:w-[181px] justify-self-end">
+                                    <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px] justify-self-end">
                                         <h2 className="text-lg font-bold underline lg:text-xl">¡Evento principal!</h2>
                                         <span className="block text-sm md:text-base">Presencial</span>
                                         <p className="text-sm mb-2 italic md:text-base">17 - 19 MAY</p>
