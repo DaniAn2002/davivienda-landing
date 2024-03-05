@@ -1,24 +1,16 @@
 import './App.css'
-import { Footer } from './components/Footer'
-import MainHero from './components/MainHero'
-import { Navbar } from './components/Navbar'
-import { PerfilHackathon } from './components/PerfilHackathon'
-import Premios from './components/Premios'
-import Register from './components/Register'
-import DaviPlata from './components/DaviPlata'
-import Fechas from './components/Fechas'
+import { Authors } from './pages/Authors'
+import Landing from './pages/Landing'
+
 function App() {
+
+  const url = location.pathname
 
   return (
     <>
-      < Navbar />
-      < MainHero />
-      < PerfilHackathon />
-      < Fechas />
-      < Premios />
-      < Register />
-      < DaviPlata />
-      < Footer />
+    
+    {(url === '/authors') ? <Authors/> : <Landing/> }
+
     </>
   )
 }

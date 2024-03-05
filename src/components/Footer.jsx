@@ -12,7 +12,7 @@ export const Footer = () => {
                                 <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/yzvycgmjnmw7cophmszr" style={{ height: '3.75rem' }} className="me-3" alt="Logo DaviPlata" />
                             </a>
 
-                            <a href="../Pages/Authors.jsx" className="font-semibold text-davivienda-smoke uppercase">Authors</a>
+                            <a href="/authors" target="_blank" className="font-semibold text-davivienda-smoke uppercase">Authors</a>
                         </div>
 
                         <div className="grid grid-cols-2 gap-8 sm:gap-12 sm:grid-cols-4">
