@@ -44,12 +44,10 @@ export const PerfilHackathon = () => {
                                     ¿Quiénes participan?
                                 </span>
                             </div>
-                            <div className="block text-cyan-950 lg:w-1/2">
-                                <p className="block sm:text-center lg:text-left text-balance font-medium pt-10 pb-9 px-[calc(1.5rem+5vw)] sm:text-xl sm:px-20 md:px-2 lg:text-2xl">
-                                    Equipos de <span className="font-bold text-davivienda-red">2 a 5 personas</span> conformados por estudiantes, egresados y graduados de Universidades de El Salvador,
-                                    de cualquier carrera afín a <span className="font-bold text-davivienda-red">tecnología, administración de empresas y diseño.</span>
-                                </p>
-                            </div>
+                            <p className="block text-cyan-950 lg:w-1/2 text-center lg:text-left text-balance font-medium pt-10 pb-9 px-[calc(1.5rem+5vw)] sm:text-xl sm:px-20 md:px-2 lg:text-2xl xl:px-3">
+                                Equipos de <span className="font-bold text-davivienda-red">2 a 5 personas</span> conformados por estudiantes, egresados y graduados de Universidades de El Salvador,
+                                de cualquier carrera afín a <span className="font-bold text-davivienda-red">tecnología, innovación, administración de empresas y diseño.</span>
+                            </p>
                         </div>
                         <div className="tracking-wide pt-4 lg:flex lg:items-center md:border-r md:border-l backdrop-blur-md bg-white/90 rounded-xl m-1">
                             <div className="lg:w-1/2 lg:my-5 lg:drop-shadow-md lg:p-1">
@@ -60,8 +58,8 @@ export const PerfilHackathon = () => {
                                     ¿Qué se debe entregar?
                                 </span>
                             </div>
-                            <p className="lg:w-1/2 text-center text-cyan-950 sm:text-xl lg:text-2xl sm:text-center lg:text-left text-balance font-medium pt-8 pb-9 px-[calc(1.5rem+5vw)] sm:px-16 md:px-4 lg:py-0 xl:px-3">
-                            ¡Mockups, prototipo funcional y código de la solución desarrollada!
+                            <p className="lg:w-1/2 text-center text-cyan-950 sm:text-xl lg:text-2xl lg:text-left text-balance font-medium pt-8 pb-9 px-[calc(1.5rem+5vw)] sm:px-16 md:px-4 lg:py-0 xl:px-3">
+                                ¡Mockups, prototipo funcional y código de la solución desarrollada!
                             </p>
                         </div>
                     </div>
