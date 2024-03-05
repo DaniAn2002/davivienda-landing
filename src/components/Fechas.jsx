@@ -7,7 +7,7 @@ const Fechas = () => {
                     <div className="flex flex-col md:flex-row justify-center lg:justify-between items-center max-w-screen-xl ">
                         <div className="hidden md:block w-fit mb-2">
                             <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708971274/davi/xeroq7cuhoqj4oknekmr.jpg" alt="Hero Image"
-                                className="angled-mask drop-shadow-xl border-2 border-davivienda-smoke h-[575px] w-[425px] rounded-tl-2xl" />
+                                className="angled-mask drop-shadow-xl border-2 border-davivienda-smoke h-[550px] w-[400px] rounded-tl-2xl" />
                         </div>
                         <div className="mb-2 mx-2 md:w-[400px] 2xl:my-0">
                             <div className="relative grid grid-cols-1 mx-auto text-davivienda-smoke w-[calc(290px+8vw)] min-[400px]:w-[calc(375px+5vw)] md:w-full md:max-w-[400px]">
@@ -17,7 +17,7 @@ const Fechas = () => {
                                     <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px]">
                                         <h2 className="text-lg font-bold underline md:text-xl">Convocatoria</h2>
                                         <span className="block text-sm md:text-base">Virtual</span>
-                                        <p className="text-sm italic md:text-base">26 FEB - 17 ABR</p>
+                                        <p className="text-sm italic md:text-base">8 MAR - 28 ABR</p>
                                         <p className="font-semibold md:text-lg">Inscripción</p>
                                     </div>
                                     <div className="absolute w-[18px] h-[18px] bg-[#F78E20] border border-davivienda-smoke rounded-full justify-self-center">
@@ -27,7 +27,7 @@ const Fechas = () => {
                                     <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px] justify-self-end">
                                         <h2 className="text-lg font-bold underline md:text-xl">Kickoff</h2>
                                         <span className="block text-sm md:text-base">Virtual</span>
-                                        <p className="text-sm italic md:text-base">22 ABR</p>
+                                        <p className="text-sm italic md:text-base">30 ABR</p>
                                         <p className="font-semibold">Introducción</p>
                                     </div>
                                     <div className="absolute w-[18px] h-[18px] bg-[#F78E20] border border-davivienda-smoke rounded-full justify-self-center">
@@ -37,7 +37,7 @@ const Fechas = () => {
                                     <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px]">
                                         <h2 className="text-lg font-bold underline md:text-xl">Sesión Q&A</h2>
                                         <span className="block text-sm md:text-base">Virtual</span>
-                                        <p className="text-sm italic md:text-base">25 ABR</p>
+                                        <p className="text-sm italic md:text-base">3 MAY</p>
                                         <p className="font-semibold">Metodología</p>
                                     </div>
                                     <div className="absolute w-[18px] h-[18px] bg-[#F78E20] border border-davivienda-smoke rounded-full justify-self-center">
