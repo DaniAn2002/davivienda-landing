@@ -6,7 +6,7 @@ const MainHero = () => {
           Hackathon Davivienda
         </h1>
         <p className="text-2xl mb-2 text-pretty sm:text-3xl md:text-balance lg:text-4xl">
-          Primera Hackathon con jóvenes universitarios en <span className="text-blue-600">El Salvador</span>
+          Primera Hackathon con jóvenes universitarios en <span className="text-davivienda-red font-medium">El Salvador</span>
         </p>
         <a href="https://www.daviplata.sv/" className="block text-xs w-fit mb-5 sm:mb-6 hover:underline min-[425px]:text-sm hover:decoration-davivienda-red hover:text-davivienda-red">Powered by DaviPlata</a>
         <a href="#" className="block rounded-3xl text-white font-bold text-xl bg-red-600 p-5 mb-4 w-fit mx-auto sm:text-2xl sm:p-6 md:text-3xl md:p-7 md:mx-0 lg:text-4xl lg:p-8 hover:bg-rose-700 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">Inscríbete aquí</a>
