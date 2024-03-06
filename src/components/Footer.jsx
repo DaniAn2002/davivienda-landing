@@ -4,21 +4,25 @@ export const Footer = () => {
             <footer style={{ backgroundColor: '#22262A' }}>
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
-                        <div className="mb-6 md:mb-0">
-                            <a href="https://www.davivienda.com.sv/" target="_blank" className="flex items-center">
-                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/y8a1tx3ofttei3zmpmq1" className="h-8 me-3 pr-2" alt="Logo Davivienda" />
+                        <div className="flex flex-wrap mb-6 md:mb-0 w-full min-[400px]:w-3/4 sm:w-2/3 md:w-72 items-center gap-2 lg:justify-center lg:content-start">
+                            <a href="https://www.davivienda.com.sv/" target="_blank" className="items-center w-3/4 mb-4 md:w-11/12">
+                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/y8a1tx3ofttei3zmpmq1" className="pe-3" alt="Logo Davivienda" />
                             </a>
-                            <a href="https://www.daviplata.com/wps/portal/daviplata" target="_blank" className="flex py-6 items-center">
-                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/yzvycgmjnmw7cophmszr" style={{ height: '3.75rem' }} className="me-3" alt="Logo DaviPlata" />
+                            <a href="https://www.daviplata.com/wps/portal/daviplata" target="_blank" className="items-center w-1/4 md:my-1 md:w-9/12 lg:w-2/5">
+                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/yzvycgmjnmw7cophmszr" className="" alt="Logo DaviPlata" />
                             </a>
-
-                            <a href="/authors" target="_blank" className="font-semibold text-davivienda-smoke uppercase">Authors</a>
+                            <a href="https://www.ujmd.edu.sv/" target="_blank" className="items-center w-1/3 md:my-1 md:w-9/12 lg:w-2/5">
+                                <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/e_blackwhite/v1709692472/kodigo-Davivienda/UJMD_cffla4.png" className="invert" alt="Logo U. Matias" />
+                            </a>
+                            <a href="https://kodigo.org/" target="_blank" className="items-center w-1/3 md:w-9/12 lg:w-2/5">
+                                <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709675589/kodigo-Davivienda/kodigo_ftwoca.png" className="" alt="Logo Kodigo" />
+                            </a>
                         </div>
 
                         <div className="grid grid-cols-2 gap-8 sm:gap-12 sm:grid-cols-4">
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Portales Davivienda</h2>
-                                <ul className="text-gray-500 font-medium">
+                                <ul className="text-gray-400 font-medium text-opacity-85">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a target="_blank" href="https://www.misfinanzasencasa.com/seleccione-su-pais" className="hover:underline">Mis Finanzas en Casa</a>
@@ -39,7 +43,7 @@ export const Footer = () => {
 
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Contacto</h2>
-                                <ul className="text-gray-500 font-medium">
+                                <ul className="text-gray-400 font-medium text-opacity-85">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a href="">Centro de Contacto</a>
@@ -58,7 +62,7 @@ export const Footer = () => {
 
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Interes</h2>
-                                <ul className="text-gray-500 font-medium">
+                                <ul className="text-gray-400 font-medium text-opacity-85">
                                     <li className="mb-4">
                                         <div className="flex flex-col">
                                             <a target="_blank" href="https://www.davivienda.com.sv/#/personas/legal" className="hover:underline">Modelos de Escrituración</a>
@@ -74,7 +78,7 @@ export const Footer = () => {
 
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold text-davivienda-smoke uppercase">Legal</h2>
-                                <ul className="text-gray-500 font-medium">
+                                <ul className="text-gray-400 font-medium text-opacity-85">
                                     <li className="mb-4">
                                         <a href="#" className="hover:underline">Politicas de privacidad</a>
                                     </li>
@@ -87,9 +91,12 @@ export const Footer = () => {
                     </div>
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024
-                            <a href="https://www.davivienda.com.sv/" className="hover:underline"> Banco Davivienda S.A.</a> todos los derechos reservados.
-                        </span>
+                        <div>
+                            <span className="text-sm text-gray-400 sm:text-center">© 2024
+                                <a href="https://www.davivienda.com.sv/" className="hover:underline"> Banco Davivienda S.A.</a> todos los derechos reservados.
+                            </span>
+                            <a href="/authors" target="_blank" className="text-sm text-gray-400 ml-2">Autores</a>
+                        </div>
                         <div className="flex mt-4 sm:justify-center sm:mt-0">
                             <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                                 <svg className="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
@@ -104,7 +111,6 @@ export const Footer = () => {
                                 </svg>
                                 <span className="sr-only">Twitter page</span>
                             </a>
-
                         </div>
                     </div>
                 </div>
