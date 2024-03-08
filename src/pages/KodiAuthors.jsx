@@ -25,7 +25,7 @@ const kodiAuthors = [
     },
     {
         'name': 'Rudy Rivera',
-        'img': 'https://res.cloudinary.com/dyhftwfrw/image/upload/v1709866758/davi/gud9fobq8jq4qjnokf7j.jpg',
+        'img': 'https://avatars.githubusercontent.com/u/148600694?v=4',
         'linkedin': '',
         'github': 'https://github.com/RudyRi'
     },
