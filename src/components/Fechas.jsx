@@ -64,13 +64,13 @@ const Fechas = () => {
                                 <p className="text-center text-balance text-xl font-bold mb-2">Tú y tu equipo reunidos en las instalaciones de la <span className="underline italic">Universidad Dr. José Matías Delgado</span> para competir y compartir con la comunidad.</p>
                             </div>
                             <div className="flex flex-wrap justify-center gap-3 items-center">
-                                <h1 className="bg-[url('/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
+                                <h1 className="bg-[url('src/assets/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
                                     17
                                 </h1>
-                                <h1 className="bg-[url('/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
+                                <h1 className="bg-[url('src/assets/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
                                     18
                                 </h1>
-                                <h1 className="bg-[url('/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
+                                <h1 className="bg-[url('src/assets/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
                                     19
                                 </h1>
                                 <h1 className="rounded-full font-bold text-6xl text-center text-davivienda-smoke drop-shadow-lg p-4">
