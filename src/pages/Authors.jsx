@@ -1,6 +1,6 @@
 import { Footer } from "../components/Footer"
 import { Navbar } from "../components/Navbar"
-import kodiAuthors from "./KodiAuthors"
+import kodiAuthors from "../utils/KodiAuthors"
 export const Authors = () => {
 
 
