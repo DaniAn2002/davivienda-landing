@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import davivienda_logo from '../assets/home/davivienda_logo.webp';
 
 export const Navbar = () => {
 
@@ -20,7 +21,7 @@ export const Navbar = () => {
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                                 <a href="/">
-                                    <img className="h-14 w-14" src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/nrzpd2uy39chgynisq04" alt="Logo Davivienda" />
+                                    <img className="h-14 w-14" src={davivienda_logo} alt="Logo Davivienda" />
                                 </a>
                             </div>
                             <div className="hidden md:block">

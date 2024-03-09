@@ -1,9 +1,11 @@
+import hero from '../assets/hackathon/participa.jpg'
+
 const Register = () => {
     return <>
         <section id="hackaton" className="pt-20">
             <div className="bg-davivienda-red rounded-[40px] flex flex-wrap items-center relative max-w-[1280px] mb-5 mx-4 sm:justify-evenly md:mx-auto lg:justify-around">
                 <div className="rounded-[40px] bg-davivienda-smoke p-2 m-5">
-                    <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708691701/davi/qynsy2n6hiu4mug5n8yp.jpg"
+                    <img src={hero}
                     alt="inscribase" className="w-full rounded-[40px] sm:max-w-[calc(225px+4vw)] md:max-w-[calc(320px+3vw)] lg:max-w-[425px]" />
                 </div>
                 <div className="bg-davivienda-smoke rounded-[40px] max-full text-center m-2 p-5 sm:max-w-[calc(220px+4vw)] md:my-4 md:max-w-[calc(290px+3vw)] md:text-start lg:max-w-[480px]">

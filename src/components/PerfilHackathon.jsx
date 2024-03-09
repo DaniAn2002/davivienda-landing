@@ -1,3 +1,8 @@
+import hero from '../assets/participantes/hero_edad.jpg'
+import reto from '../assets/participantes/reto.png'
+import participantes from '../assets/participantes/participantes.png'
+import mockup from '../assets/participantes/mockup.png'
+
 export const PerfilHackathon = () => {
     return (
         <>
@@ -13,7 +18,7 @@ export const PerfilHackathon = () => {
                             </p>
                         </div>
                         <div className="rounded-[40px] bg-davivienda-smoke w-fit h-fit my-5 mx-auto p-2">
-                            <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708970708/davi/dll7s0xt9kudhwekbzjr.jpg"
+                            <img src={hero}
                                 className="w-full rounded-[40px] block sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] md:text-start lg:max-w-[500px]"
                                 alt="hombre con laptop" />
                         </div>
@@ -22,7 +27,7 @@ export const PerfilHackathon = () => {
                     <div className="md:grid md:grid-flow-rows md:grid-cols-auto bg-gray-200 rounded-md">
                         <div className="tracking-wide pt-4 lg:flex md:border-r md:border-l backdrop-blur-md bg-white/90 rounded-md m-1">
                             <div className="lg:w-1/2 lg:my-5 lg:drop-shadow-md lg:p-1">
-                                <img src="https://res.cloudinary.com/dbhtbf2uu/image/upload/v1708923931/Davivienda-landing/j3o6ew7n5lcpopjzddp8.png"
+                                <img src={reto}
                                     className="w-2/6 md:w-24 lg:w-40 block mx-auto my-2"
                                     alt="Reto" />
                                 <span className="block font-bold text-2xl text-center mx-auto">
@@ -36,7 +41,7 @@ export const PerfilHackathon = () => {
 
                         <div className="lg:flex lg:items-center tracking-wide p-4 md:border-r md:border-l backdrop-blur-md bg-white/90 rounded-md m-1 h-auto">
                             <div className="lg:w-1/2 lg:my-5 lg:drop-shadow-md lg:p-1">
-                                <img src="https://res.cloudinary.com/dbhtbf2uu/image/upload/v1708923960/Davivienda-landing/m15568pq46o3vyhkqv0x.png"
+                                <img src={participantes}
                                     className="w-2/6 md:w-24 lg:w-40 block mx-auto my-2"
                                     alt="Participantes" />
                                 <span className="block font-bold text-2xl text-center mx-auto">
@@ -50,7 +55,7 @@ export const PerfilHackathon = () => {
                         </div>
                         <div className="tracking-wide pt-4 lg:flex lg:items-center md:border-r md:border-l backdrop-blur-md bg-white/90 rounded-xl m-1">
                             <div className="lg:w-1/2 lg:my-5 lg:drop-shadow-md lg:p-1">
-                                <img src="https://res.cloudinary.com/dbhtbf2uu/image/upload/v1708923984/Davivienda-landing/fynovvllmkwocdpobkfw.png"
+                                <img src={mockup}
                                     className="w-2/6 md:w-24 lg:w-40 block mx-auto my-2"
                                     alt="Mockup" />
                                 <span className="block font-bold text-2xl text-center mx-auto">

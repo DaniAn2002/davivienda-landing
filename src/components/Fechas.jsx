@@ -1,3 +1,7 @@
+import timeline from '../assets/fechas/line.png'
+import hero from '../assets/fechas/hero_fechas.jpg'
+import arrow from '../assets/fechas/downArrow.png'
+
 const Fechas = () => {
     return (
         <section>
@@ -6,13 +10,13 @@ const Fechas = () => {
                 <section className="p-1 lg:border-4 lg:border-davivienda-smoke lg:rounded-2xl text-white md:max-w-screen-md lg:max-w-[945px] mx-auto">
                     <div className="flex flex-col md:flex-row justify-center lg:justify-between items-center max-w-screen-xl ">
                         <div className="hidden md:block w-fit mb-2">
-                            <img src="https://res.cloudinary.com/dyhftwfrw/image/upload/v1708971274/davi/xeroq7cuhoqj4oknekmr.jpg" alt="Timeline Image"
+                            <img src={hero} alt="Timeline Image"
                                 className="angled-mask drop-shadow-xl border-2 border-davivienda-smoke h-[550px] w-[400px] rounded-tl-2xl" />
                         </div>
                         <div className="mb-2 mx-2 md:w-[400px] 2xl:my-0">
                             <div className="relative grid grid-cols-1 mx-auto text-davivienda-smoke w-[calc(290px+8vw)] min-[400px]:w-[calc(375px+5vw)] md:w-full md:max-w-[400px]">
                                 <img className="absolute self-center justify-self-center h-[74%] pb-4"
-                                    src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709031663/kodigo-Davivienda/Line_clean_sfzc5d.png" alt="Timeline Bar" />
+                                    src={timeline} alt="Timeline Bar" />
                                 <div className="grid items-center mt-2">
                                     <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px]">
                                         <h2 className="text-lg font-bold underline md:text-xl">Convocatoria</h2>
@@ -48,7 +52,7 @@ const Fechas = () => {
                                         <h2 className="text-lg font-bold underline lg:text-xl">¡Evento principal!</h2>
                                         <span className="block text-sm md:text-base">Universidad Dr José Matías Delgado</span>
                                         <p className="text-sm mb-2 italic md:text-base">17 - 19 MAY</p>
-                                        <img className="w-9 mx-auto" src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709273082/kodigo-Davivienda/arrow-big-down-lines-filled_sxwg5p.png" alt="Arrow Direction" />
+                                        <img className="w-9 mx-auto" src={arrow} alt="Arrow Direction" />
                                     </div>
                                     <div className="absolute w-[18px] h-[18px] bg-[#F78E20] border border-davivienda-smoke rounded-full justify-self-center">
                                     </div>

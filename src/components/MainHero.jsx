@@ -1,3 +1,5 @@
+import hero from '../assets/home/hero-clean.png'
+
 const MainHero = () => {
   return (
     <section id="home" className="flex flex-wrap justify-between items-center relative max-w-[1280px] mx-4 pt-20 md:justify-evenly md:mx-auto lg:justify-around">
@@ -11,7 +13,7 @@ const MainHero = () => {
         <a href="https://www.daviplata.sv/" className="block text-xs w-fit mb-5 sm:mb-6 hover:underline min-[425px]:text-sm hover:decoration-davivienda-red hover:text-davivienda-red">Powered by DaviPlata</a>
         <a href="#" className="block rounded-3xl text-white font-bold text-xl bg-red-600 p-5 mb-4 w-fit mx-auto sm:text-2xl sm:p-6 md:text-3xl md:p-7 md:mx-0 lg:text-4xl lg:p-8 hover:bg-rose-700 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">Inscríbete aquí</a>
       </div>
-      <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1708385914/kodigo-Davivienda/hero-clean_jtgyno.png"
+      <img src={hero}
         alt="hero-img" className="w-full rounded-[10%] sm:max-w-[calc(270px+4vw)] md:max-w-[calc(350px+3vw)] lg:max-w-[500px]" />
     </section>
   )
