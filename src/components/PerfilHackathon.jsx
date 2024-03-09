@@ -30,8 +30,7 @@ export const PerfilHackathon = () => {
                                 </span>
                             </div>
                             <p className="lg:w-1/2 text-center text-cyan-950 sm:text-center lg:text-left sm:text-xl text-balance font-medium lg:text-2xl pt-10 pb-9 px-[calc(1.5rem+5vw)] sm:px-16 md:px-4 xl:px-3 lg:my-5">
-                                Diseñar la oferta de valor y experiencia para los jóvenes universitarios que fortalezca el ecosistema digital
-                                de pagos en la universidades.
+                                Diseñar la oferta de valor y experiencia para los jóvenes universitarios que fortalezca el ecosistema digital de pagos en las universidades por medio del uso de DaviPlata.
                             </p>
                         </div>
 
