@@ -12,10 +12,10 @@ export const Footer = () => {
                                 <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/yzvycgmjnmw7cophmszr" className="" alt="Logo DaviPlata" />
                             </a>
                             <a href="https://www.ujmd.edu.sv/" target="_blank" className="items-center w-1/5 md:my-1 md:w-2/5">
-                                <img src="src\assets\footer\UJMD.png" className="invert" alt="Logo U. Matias" />
+                                <img src="/src/assets/footer/UJMD.png" className="invert" alt="Logo U. Matias" />
                             </a>
                             <a href="https://sites.google.com/davivienda.com/efectoi/efecto-i/skills-i" target="_blank" className="items-center w-1/5 md:w-2/5">
-                                <img src="src\assets\footer\skills-i.png" className="max-w-[75%] mx-auto" alt="Logo Skills i" />
+                                <img src="/src/assets/footer/skills-i.png" className="max-w-[75%] mx-auto" alt="Logo Skills i" />
                             </a>
                             <a href="https://kodigo.org/" target="_blank" className="items-center w-1/5 md:w-2/5">
                                 <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709675589/kodigo-Davivienda/kodigo_ftwoca.png" className="mt-3" alt="Logo Kodigo" />
