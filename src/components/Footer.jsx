@@ -4,18 +4,21 @@ export const Footer = () => {
             <footer style={{ backgroundColor: '#22262A' }}>
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
-                        <div className="flex flex-wrap mb-6 md:mb-0 w-full min-[400px]:w-3/4 sm:w-2/3 md:w-72 items-center gap-2 lg:justify-center lg:content-start">
-                            <a href="https://www.davivienda.com.sv/" target="_blank" className="items-center w-3/4 mb-4 md:w-11/12">
-                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/y8a1tx3ofttei3zmpmq1" className="pe-3" alt="Logo Davivienda" />
+                        <div className="flex flex-wrap mb-6 md:mb-0 w-full sm:w-2/3 md:w-72 items-center gap-2 lg:justify-center lg:content-start">
+                            <a href="https://www.davivienda.com.sv/" target="_blank" className="items-center w-full mb-4 mr-4">
+                                <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/y8a1tx3ofttei3zmpmq1" className="w-3/4 lg:mx-auto md:w-11/12" alt="Logo Davivienda" />
                             </a>
-                            <a href="https://www.daviplata.com/wps/portal/daviplata" target="_blank" className="items-center w-1/4 md:my-1 md:w-9/12 lg:w-2/5">
+                            <a href="https://www.daviplata.com/wps/portal/daviplata" target="_blank" className="items-center w-1/5 md:my-1 md:w-2/5">
                                 <img src="https://res.cloudinary.com/doi7ukubm/image/upload/f_auto,q_auto/v1/davivienda-landing/yzvycgmjnmw7cophmszr" className="" alt="Logo DaviPlata" />
                             </a>
-                            <a href="https://www.ujmd.edu.sv/" target="_blank" className="items-center w-1/3 md:my-1 md:w-9/12 lg:w-2/5">
-                                <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/e_blackwhite/v1709692472/kodigo-Davivienda/UJMD_cffla4.png" className="invert" alt="Logo U. Matias" />
+                            <a href="https://www.ujmd.edu.sv/" target="_blank" className="items-center w-1/5 md:my-1 md:w-2/5">
+                                <img src="src\assets\footer\UJMD.png" className="invert" alt="Logo U. Matias" />
                             </a>
-                            <a href="https://kodigo.org/" target="_blank" className="items-center w-1/3 md:w-9/12 lg:w-2/5">
-                                <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709675589/kodigo-Davivienda/kodigo_ftwoca.png" className="" alt="Logo Kodigo" />
+                            <a href="https://sites.google.com/davivienda.com/efectoi/efecto-i/skills-i" target="_blank" className="items-center w-1/5 md:w-2/5">
+                                <img src="src\assets\footer\skills-i.png" className="max-w-[75%] mx-auto" alt="Logo Skills i" />
+                            </a>
+                            <a href="https://kodigo.org/" target="_blank" className="items-center w-1/5 md:w-2/5">
+                                <img src="https://res.cloudinary.com/dk2oxzxoo/image/upload/v1709675589/kodigo-Davivienda/kodigo_ftwoca.png" className="mt-3" alt="Logo Kodigo" />
                             </a>
                         </div>
 
