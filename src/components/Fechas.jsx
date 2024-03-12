@@ -15,7 +15,7 @@ const Fechas = () => {
                         </div>
                         <div className="mb-2 mx-2 md:w-[400px] 2xl:my-0">
                             <div className="relative grid grid-cols-1 mx-auto text-davivienda-smoke w-[calc(290px+8vw)] min-[400px]:w-[calc(375px+5vw)] md:w-full md:max-w-[400px]">
-                                <img className="absolute self-center justify-self-center h-[74%] pb-4"
+                                <img className="absolute self-center justify-self-center h-[70%] mb-8"
                                     src={timeline} alt="Timeline Bar" />
                                 <div className="grid items-center mt-2">
                                     <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px]">
@@ -50,8 +50,8 @@ const Fechas = () => {
                                 <div className="grid items-center">
                                     <div className="bg-davivienda-red border border-davivienda-smoke rounded-2xl drop-shadow-xl shadow shadow-davivienda-smoke w-[calc(128px+5vw)] p-2 md:w-[170px] lg:w-[185px] justify-self-end">
                                         <h2 className="text-lg font-bold underline lg:text-xl">¡Evento principal!</h2>
-                                        <span className="block text-sm md:text-base">Universidad Dr José Matías Delgado</span>
-                                        <p className="text-sm mb-2 italic md:text-base">17 - 19 MAY</p>
+                                        <span className="block text-sm md:text-base">Universidad Dr José Matías Delgado - Campus 1</span>
+                                        <p className="text-sm mb-2 italic md:text-base">18 - 20 MAY</p>
                                         <img className="w-9 mx-auto" src={arrow} alt="Arrow Direction" />
                                     </div>
                                     <div className="absolute w-[18px] h-[18px] bg-[#F78E20] border border-davivienda-smoke rounded-full justify-self-center">
@@ -69,13 +69,13 @@ const Fechas = () => {
                             </div>
                             <div className="flex flex-wrap justify-center gap-3 items-center">
                                 <h1 className="bg-[url('/src/assets/fechas/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
-                                    17
-                                </h1>
-                                <h1 className="bg-[url('/src/assets/fechas/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
                                     18
                                 </h1>
                                 <h1 className="bg-[url('/src/assets/fechas/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
                                     19
+                                </h1>
+                                <h1 className="bg-[url('/src/assets/fechas/calendar.svg')] rounded font-bold text-6xl text-davivienda-smoke text-center flex items-center justify-center w-32 h-32 pt-4 drop-shadow-lg md:w-28 md:h-28 lg:w-32 lg:h-32">
+                                    20
                                 </h1>
                                 <h1 className="rounded-full font-bold text-6xl text-center text-davivienda-smoke drop-shadow-lg p-4">
                                     de Mayo
