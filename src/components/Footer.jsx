@@ -18,10 +18,10 @@ export const Footer = () => {
                                 <img src={daviplata} className="" alt="Logo DaviPlata" />
                             </a>
                             <a href="https://www.ujmd.edu.sv/" target="_blank" className="items-center w-1/5 md:my-1 md:w-2/5">
-                                <img src={UJMD} className="invert" alt="Logo U. Matias" />
+                                <img src={UJMD} className="w-2/3 mx-auto" alt="Logo U. Matias" />
                             </a>
                             <a href="https://sites.google.com/davivienda.com/efectoi/efecto-i/skills-i" target="_blank" className="items-center w-1/5 md:w-2/5">
-                                <img src={skills} className="max-w-[75%] mx-auto" alt="Logo Skills i" />
+                                <img src={skills} className="w-3/4 mx-auto" alt="Logo Skills i" />
                             </a>
                             <a href="https://kodigo.org/" target="_blank" className="items-center w-1/5 md:w-2/5">
                                 <img src={kodigo} className="mt-3" alt="Logo Kodigo" />
