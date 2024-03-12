@@ -37,7 +37,7 @@ export const Navbar = () => {
                         </div>
 
                         <div className="flex items-center gap-4">
-                                <a href='#' className="text-black bg-davivienda-smoke focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:bg-zinc-50 hover:scale-105">
+                                <a href='https://forms.gle/QVHpSVtXZ33TsanTA' target="_blank" className="text-black bg-davivienda-smoke focus:ring-4 focus:outline-none focus:ring-neutral-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:bg-zinc-50 hover:scale-105">
                                     Inscríbete
                                 </a>
                             <div className="md:hidden">
