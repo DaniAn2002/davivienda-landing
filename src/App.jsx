@@ -1,4 +1,3 @@
-import './App.css'
 import { Authors } from './pages/Authors'
 import Landing from './pages/Landing'
 
