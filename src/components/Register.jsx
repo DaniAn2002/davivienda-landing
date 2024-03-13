@@ -16,7 +16,7 @@ const Register = () => {
                 </div>
             </div>
         </section>
-        <a href="#" className="bg-[#F78E20] rounded-2xl block text-lg text-cyan-950 font-bold w-fit p-5 mb-14 mx-auto sm:text-2xl hover:brightness-90 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">Términos y Condiciones</a>
+        <a href="/Bases de Competencia - Hackathon.pdf" target="_blank" className="bg-[#F78E20] rounded-2xl block text-lg text-cyan-950 font-bold w-fit p-5 mb-14 mx-auto sm:text-2xl hover:brightness-90 hover:shadow-xl hover:shadow-slate-950/40 hover:scale-105">Términos y Condiciones</a>
     </>
 }
 export default Register
