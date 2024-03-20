@@ -1,5 +1,5 @@
 import UJMD from "../assets/footer/UJMD.png"
-import skills from "../assets/footer/skills-i.png"
+import domo from "../assets/footer/domo-i.png"
 import daviplata from "../assets/footer/daviplata.webp"
 import davivienda from "../assets/footer/davivienda_letras.webp"
 import kodigo from "../assets/footer/kodigo.png"
@@ -20,11 +20,11 @@ export const Footer = () => {
                             <a href="https://www.ujmd.edu.sv/" target="_blank" className="items-center w-1/5 md:my-1 md:w-2/5">
                                 <img src={UJMD} className="w-2/3 mx-auto" alt="Logo U. Matias" />
                             </a>
-                            <a href="https://sites.google.com/davivienda.com/efectoi/efecto-i/skills-i" target="_blank" className="items-center w-1/5 md:w-2/5">
-                                <img src={skills} className="w-3/4 mx-auto" alt="Logo Skills i" />
+                            <a href="https://sites.google.com/davivienda.com/efectoi/efecto-i/domo-i" target="_blank" className="items-center w-1/5 md:w-2/5">
+                                <img src={domo} className="w-11/12 mx-auto" alt="Logo Domo i" />
                             </a>
                             <a href="https://kodigo.org/" target="_blank" className="items-center w-1/5 md:w-2/5">
-                                <img src={kodigo} className="mt-3" alt="Logo Kodigo" />
+                                <img src={kodigo} className="w-11/12 mx-auto" alt="Logo Kodigo" />
                             </a>
                         </div>
 
