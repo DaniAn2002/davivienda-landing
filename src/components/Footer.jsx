@@ -1,7 +1,7 @@
 import UJMD from "../assets/footer/UJMD.png"
 import domo from "../assets/footer/domo-i.png"
 import daviplata from "../assets/footer/daviplata.webp"
-import davivienda from "../assets/footer/davivienda_letras.webp"
+import davivienda from "../assets/footer/davivienda_letras.jpg"
 import kodigo from "../assets/footer/kodigo.png"
 
 export const Footer = () => {
@@ -12,7 +12,7 @@ export const Footer = () => {
                     <div className="md:flex md:justify-between">
                         <div className="flex flex-wrap mb-6 md:mb-0 w-full sm:w-2/3 md:w-72 items-center gap-2 lg:justify-center lg:content-start">
                             <a href="https://www.davivienda.com.sv/" target="_blank" className="items-center w-full mb-4 mr-4">
-                                <img src={davivienda} className="w-3/4 lg:mx-auto md:w-11/12" alt="Logo Davivienda" />
+                                <img src={davivienda} className="w-3/4 rounded-lg lg:mx-auto md:w-11/12" alt="Logo Davivienda" />
                             </a>
                             <a href="https://www.daviplata.com/wps/portal/daviplata" target="_blank" className="items-center w-1/5 md:my-1 md:w-2/5">
                                 <img src={daviplata} className="" alt="Logo DaviPlata" />
